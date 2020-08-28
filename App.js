@@ -38,10 +38,7 @@ const App = () => {
     <WebView
       javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
-      source={{
-        uri:
-          'https://beneficiosaude.gerale.com.br/webmedicina/inicio/00000001678/99999998611022',
-      }}
+      source={{uri: 'https://api.feegow.com.br/patient-interface/PN5K/login'}}
     />
   ) : (
     <View>
